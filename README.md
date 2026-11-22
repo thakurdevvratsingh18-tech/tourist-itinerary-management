@@ -8,6 +8,7 @@ Designed for commercial viability, TravelCraft provides complete trip lifecycle 
 
 ## 🌟 Key Highlights & Features
 
+
 ### 1. Smart Journey Composer (Signature Feature)
 - **Mathematical Distance Matrix:** Uses the Haversine spherical formula to calculate accurate distances between Indian cities and attraction coordinates.
 - **Dual Plan Generation:**
