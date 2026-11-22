@@ -1,0 +1,37 @@
+{
+  "name": "tourist-itinerary-management",
+  "version": "1.0.0",
+  "description": "Tourist Itinerary Management System - Full Stack Application",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently --kill-others-on-fail --names \"SERVER,CLIENT\" --prefix-colors \"green,cyan\" \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "node server/index.js",
+    "seed": "node server/utils/seeder.js",
+    "install-all": "npm install && npm --prefix server install && npm --prefix client install",
+    "postinstall": "npm --prefix server install && npm --prefix client install"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "travel",
+    "itinerary",
+    "tourism",
+    "react",
+    "nodejs",
+    "mongodb",
+    "tsp",
+    "route-optimizer"
+  ],
+  "author": "TravelCraft Team",
+  "license": "MIT"
+}
