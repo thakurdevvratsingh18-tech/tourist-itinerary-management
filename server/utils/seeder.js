@@ -116,7 +116,7 @@ const destinationsData = [
     state: 'Goa',
     city: 'Panaji',
     coordinates: { lat: 15.2993, lng: 74.1240 },
-    category: ['beach', 'relaxation', 'food'],
+    category: ['beach', 'relaxation'],
     shortDescription: 'Golden sand coastlines, Portuguese colonial architecture, seafood shacks, and tropical sunsets.',
     description: 'Goa is India\'s coastal paradise along the Arabian Sea. Renowned for its relaxed susegad lifestyle, sun-kissed beaches from Arambol down to Palolem, whitewashed 16th-century Portuguese churches in Old Goa, spice plantations, and vibrant beach shack culture serving fresh seafood curries and feni.',
     climate: 'Tropical with warm sea breezes year-round.',
