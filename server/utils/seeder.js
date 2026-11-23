@@ -37,7 +37,7 @@ const destinationsData = [
       { url: 'https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=1200&q=80', caption: 'Sunrise Boat Ride on the Holy Ganges' }
     ],
     attractions: [
-      { name: 'Dashashwamedh Ghat', type: 'spiritual', duration: '2 hours', estimatedCost: 100, coordinates: { lat: 25.3076, lng: 83.0104 }, description: 'The main and most vibrant ghat where the world-renowned evening Ganga Aarti takes place daily.' },
+      { name: 'Dashashwamedh Ghat', type: 'other', duration: '2 hours', estimatedCost: 100, coordinates: { lat: 25.3076, lng: 83.0104 }, description: 'The main and most vibrant ghat where the world-renowned evening Ganga Aarti takes place daily.' },
       { name: 'Kashi Vishwanath Temple', type: 'temple', duration: '2.5 hours', estimatedCost: 300, coordinates: { lat: 25.3109, lng: 83.0107 }, description: 'One of the twelve sacred Jyotirlingas, known for its golden spires and deep devotional energy.' },
       { name: 'Sarnath Deer Park', type: 'monument', duration: '3 hours', estimatedCost: 200, coordinates: { lat: 25.3811, lng: 83.0214 }, description: 'The historic Buddhist deer park where Gautama Buddha taught his first sermon.' }
     ],
@@ -230,7 +230,7 @@ const destinationsData = [
     ],
     attractions: [
       { name: 'Ganges River Rafting', type: 'adventure', duration: '3.5 hours', estimatedCost: 900, coordinates: { lat: 30.1200, lng: 78.3200 }, description: 'Thrilling grade III and IV whitewater rapids from Shivpuri down to Lakshman Jhula.' },
-      { name: 'Triveni Ghat Evening Aarti', type: 'spiritual', duration: '2 hours', estimatedCost: 50, coordinates: { lat: 30.0950, lng: 78.2930 }, description: 'Devotional congregation of floating butter lamps, conch shells, and Vedic chants.' },
+      { name: 'Triveni Ghat Evening Aarti', type: 'other', duration: '2 hours', estimatedCost: 50, coordinates: { lat: 30.0950, lng: 78.2930 }, description: 'Devotional congregation of floating butter lamps, conch shells, and Vedic chants.' },
       { name: 'Beatles Ashram (Chaurasi Kutia)', type: 'monument', duration: '2 hours', estimatedCost: 150, coordinates: { lat: 30.1150, lng: 78.3140 }, description: 'Historic meditation center nestled inside Rajaji Tiger Reserve with striking murals.' }
     ],
     averageRating: 4.8,
