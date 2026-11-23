@@ -116,7 +116,7 @@ const destinationsData = [
     state: 'Goa',
     city: 'Panaji',
     coordinates: { lat: 15.2993, lng: 74.1240 },
-    category: ['beach', 'relaxation'],
+    category: ['beach', 'adventure'],
     shortDescription: 'Golden sand coastlines, Portuguese colonial architecture, seafood shacks, and tropical sunsets.',
     description: 'Goa is India\'s coastal paradise along the Arabian Sea. Renowned for its relaxed susegad lifestyle, sun-kissed beaches from Arambol down to Palolem, whitewashed 16th-century Portuguese churches in Old Goa, spice plantations, and vibrant beach shack culture serving fresh seafood curries and feni.',
     climate: 'Tropical with warm sea breezes year-round.',
@@ -276,7 +276,7 @@ const destinationsData = [
     state: 'Kerala',
     city: 'Alappuzha (Alleppey)',
     coordinates: { lat: 9.4981, lng: 76.3388 },
-    category: ['nature', 'relaxation'],
+    category: ['adventure', 'beach'],
     shortDescription: 'Serene network of interconnected canals, lagoons, and traditional thatched kettuvallam houseboats.',
     description: 'The Kerala Backwaters are a labyrinthine chain of brackish lagoons, lakes, and canals running parallel to the Arabian Sea coast. Alappuzha, the Venice of the East, is the hub for traditional kettuvallam (thatched roof wooden houseboats) drifting through emerald palm-fringed channels, passing paddy fields below sea level, and serving freshly prepared spicy Karimeen fish.',
     climate: 'Tropical wet with lush coastal foliage.',
@@ -308,7 +308,7 @@ const destinationsData = [
     state: 'West Bengal',
     city: 'Darjeeling',
     coordinates: { lat: 27.0410, lng: 88.2663 },
-    category: ['mountain', 'nature'],
+    category: ['mountain', 'heritage'],
     shortDescription: 'Rolling emerald tea plantations overlooked by the mighty Kangchenjunga snow peaks.',
     description: 'Darjeeling is a hill station in West Bengal in the Lesser Himalayas at an elevation of 2,042 m. Noted for its world-celebrated orthodox black tea industry, panoramic views of Kangchenjunga (the world\'s third-highest peak), Buddhist monasteries, and the UNESCO World Heritage Darjeeling Himalayan Railway (the "Toy Train").',
     climate: 'Temperate alpine with mist-shrouded green hillsides.',
@@ -436,7 +436,7 @@ const destinationsData = [
     state: 'Karnataka',
     city: 'Madikeri',
     coordinates: { lat: 12.3375, lng: 75.8069 },
-    category: ['nature', 'relaxation'],
+    category: ['mountain', 'adventure'],
     shortDescription: 'The Scotland of India covered in lush coffee plantations, spice gardens, and cascading waterfalls.',
     description: 'Coorg, officially Kodagu, is a rural district in southwest Karnataka nestled in the Western Ghats. Known for its misty hills, sprawling robusta and arabica coffee plantations, cardamom groves, Tibetan settlement at Bylakuppe, and rich warrior culture of the Kodava community.',
     climate: 'Highland tropical with cool mists and heavy monsoon rains.',
@@ -485,9 +485,9 @@ const destinationsData = [
       { url: 'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80', caption: 'Ranthambore Fort walls rising high above the jungle canopy' }
     ],
     attractions: [
-      { name: 'Jungle Tiger Safari (Zone 1-5)', type: 'wildlife', duration: '3.5 hours', estimatedCost: 1800, coordinates: { lat: 26.0200, lng: 76.5100 }, description: 'Guided open-top Gypsy or Canter safari tracking tiger pugmarks, leopards, and sambar deer.' },
+      { name: 'Jungle Tiger Safari (Zone 1-5)', type: 'adventure', duration: '3.5 hours', estimatedCost: 1800, coordinates: { lat: 26.0200, lng: 76.5100 }, description: 'Guided open-top Gypsy or Canter safari tracking tiger pugmarks, leopards, and sambar deer.' },
       { name: 'Ranthambore Fort', type: 'monument', duration: '3 hours', estimatedCost: 100, coordinates: { lat: 26.0210, lng: 76.4530 }, description: 'UNESCO World Heritage hill fort built in 944 CE with panoramic park views and ancient stepwells.' },
-      { name: 'Padam Talao Lake', type: 'wildlife', duration: '2 hours', estimatedCost: 0, coordinates: { lat: 26.0150, lng: 76.5200 }, description: 'Largest lake inside the park where tigers hunt along the water edge near the historic Jogi Mahal.' }
+      { name: 'Padam Talao Lake', type: 'park', duration: '2 hours', estimatedCost: 0, coordinates: { lat: 26.0150, lng: 76.5200 }, description: 'Largest lake inside the park where tigers hunt along the water edge near the historic Jogi Mahal.' }
     ],
     averageRating: 4.8,
     reviewCount: 44,
