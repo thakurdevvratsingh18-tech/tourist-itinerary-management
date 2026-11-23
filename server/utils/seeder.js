@@ -599,7 +599,7 @@ console.log('Successfully seeded ${createdDestinations.length} destinations.');
         user: demoUser._id,
         day,
         date: dayDate,
-        title: isAgra ? `Day ${day}: Marvels of Agra` : `Day ${day}: Spiritual Life in Varanasi`,
+        title: isAgra ?'Day ${day}: Marvels of Agra` : `Day ${day}: Spiritual Life in Varanasi',
         notes: isAgra ? 'Early morning photography at monuments' : 'Evening Ganga Aarti boat ride reserved',
         activities: [
           {
