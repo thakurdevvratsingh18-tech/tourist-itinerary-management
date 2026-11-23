@@ -84,7 +84,7 @@ const destinationsData = [
     state: 'Uttar Pradesh',
     city: 'Agra',
     coordinates: { lat: 27.1767, lng: 78.0081 },
-    category: ['heritage', 'monument'],
+    category: ['heritage', 'city'],
     shortDescription: 'Home to the immortal Taj Mahal, Agra Fort, and masterpieces of Mughal art and architecture.',
     description: 'Agra sits on the banks of the Yamuna River and represents the architectural zenith of the Mughal Empire. Famous globally for the Taj Mahal, an ivory-white marble mausoleum commissioned by Shah Jahan in 1632 in memory of his favorite wife Mumtaz Mahal, Agra is also home to the UNESCO World Heritage monuments of Agra Fort and the abandoned royal citadel of Fatehpur Sikri.',
     climate: 'Warm continental with humid monsoon season.',
