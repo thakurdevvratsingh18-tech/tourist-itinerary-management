@@ -546,13 +546,17 @@ async function seedDatabase() {
     console.log(`Users created: ${adminUser.email} (Admin), ${demoUser.email} (User)`);
 
     // 3. Create Destinations
-    console.log(`Inserting ${destinationsData.length} Indian destinations...`);
-    const createdDestinations = await Destination.insertMany(
-      destinationsData.map((dest) => ({
-        ...dest,
-        createdBy: adminUser._id
-      }))
-    );
+  // 3. Create Destinations
+console.log(`Inserting ${destinationsData.length} Indian destinations...`);
+const createdDestinations = [];
+for (const dest of destinationsData) {
+  const created = await Destination.create({
+    ...dest,
+    createdBy: adminUser._id,
+  });
+  createdDestinations.push(created);
+}
+```
     console.log(`Successfully seeded ${createdDestinations.length} destinations.`);
 
     // 4. Create Sample Trips for Demo User
