@@ -557,7 +557,7 @@ for (const dest of destinationsData) {
   createdDestinations.push(created);
 }
 ```
-    console.log(`Successfully seeded ${createdDestinations.length} destinations.`);
+console.log(`Successfully seeded ${createdDestinations.length} destinations.`);
 
     // 4. Create Sample Trips for Demo User
     const varanasi = createdDestinations.find((d) => d.name === 'Varanasi');
